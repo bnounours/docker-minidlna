@@ -1,4 +1,4 @@
-FROM bnounours/docker-base-alpine:latest
+FROM bnounours/docker-base-alpine:armhf-latest-stable
 
 RUN apk update && \
     apk add minidlna && \
